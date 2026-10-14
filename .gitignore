@@ -1,0 +1,9 @@
+node_modules/
+.env
+dist/
+build/
+*.log
+helpdesk-api/node_modules/
+helpdesk-front/node_modules/
+helpdesk-api/.env
+helpdesk-front/.env
