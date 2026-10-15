@@ -41,6 +41,15 @@ O banco de dados relacional é composto pelas seguintes entidades principais:
 * `chamados`: Registra os tickets com relacionamentos para o usuário solicitante.
 * `comentarios`: Mantém o histórico de mensagens e atualizações associadas a cada ticket.
 
+## Front-end
+
+A interface do sistema foi desenvolvida em React com Vite e oferece:
+
+* login do usuário;
+* painel de acompanhamento de chamados;
+* detalhes do chamado e histórico de comentários;
+* navegação entre páginas com React Router.
+
 ## Execução Local
 
 ### Pré-requisitos
@@ -56,3 +65,19 @@ cd helpdesk-api
 npm install
 # Crie o arquivo .env conforme a estrutura descrita em .env.example
 npm start
+```
+
+### Inicialização do Front-end
+```bash
+cd helpdesk-front
+npm install
+npm run dev
+```
+
+## Autor
+
+Matheus Oliveira
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
